@@ -3,10 +3,10 @@
 This is a simple extensions to prevent the mimic of opening terminal, navigating in folders and execute va-cli command.
 
 ## How to install?
->open extensions tab in vscode
->go into menu ...
-> import from vsix
->select the downloaded last release vsix version
+- open extensions tab in vscode
+- go into menu ...
+- import from vsix
+- select the downloaded last release vsix version
 
 ![](https://github.com/AleckAstan/va-cli-shortcuts-extension/blob/master/installation.gif)
 ## Features
