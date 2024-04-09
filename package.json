@@ -50,5 +50,13 @@
     "typescript": "^5.3.3",
     "@vscode/test-cli": "^0.0.8",
     "@vscode/test-electron": "^2.3.9"
-  }
+  },
+  "repository":"https://github.com/AleckAstan/va-cli-shortcuts-extension",
+  "authors": [
+		{
+			"name": "Antsa Judicaël",
+			"email": "aleck.dev.git@gmail.com"
+		}
+	],
+	"license": "MIT"
 }
