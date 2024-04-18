@@ -30,7 +30,9 @@ sometime the menu is not showing if you don't right click on file inside the fol
 
 ### 1.1.0(2024-04-18)
 **VA-Tools snippets inside react components** (*.tsx file*)
-- ue : generating useEffect. Because... why not!
+
+#### COMMAND LIST
+-  ue : generating useEffect. Because... why not!
 ```typescript
     useEffect(() => {
 	  // Your code here
