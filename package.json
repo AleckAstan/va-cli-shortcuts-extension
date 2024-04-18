@@ -7,6 +7,7 @@
     "vscode": "^1.88.0"
   },
   "categories": [
+    "Snippets",
     "Other"
   ],
   "activationEvents": [],
@@ -30,7 +31,13 @@
           "group": "navigation"
         }
       ]
-    }
+    },
+    "snippets": [
+      {
+        "language": "typescriptreact",
+        "path":  "./snippets/typescript.snippet.json"
+      }
+    ]
   },
   "scripts": {
     "vscode:prepublish": "npm run compile",

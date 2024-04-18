@@ -1,0 +1,39 @@
+{
+  "React useEffect": {
+    "prefix": "ue",
+    "body": [
+      "useEffect(() => {",
+      "  // Your code here",
+      "}, []);"
+    ],
+    "description": "Generate React useEffect hook with an empty dependency array"
+  },
+  "useGetHooks": {
+    "prefix": "ugh",
+    "body": [
+      "const {data:${1:Name}, loading:get${1/(.*)/${1:/capitalize}/}Loading} = useGet${1/(.*)/${1:/capitalize}/}();"
+    ],
+    "description": "useGetHooks"
+  },
+  "useMutationHooks": {
+    "prefix": "umh",
+    "body": [
+      "const {mutateAsync:${1:Name} } = use${1/(.*)/${1:/capitalize}/}({action:()=>{}});"
+    ],
+    "description": "useMutationHooks"
+  },
+  "showBackdropLoader": {
+    "prefix": "sbl",
+    "body": [
+      "showBackdropLoader(true, '${1:Message...}');"
+    ],
+    "description": "showBackdropLoader"
+  },
+  "useAuth" :{
+    "prefix": "useAuth",
+    "body": [
+      "const {user} = useAuth()"
+    ],
+    "description": "useAuth"
+  }
+}
